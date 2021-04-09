@@ -6,3 +6,4 @@ Holiday Card - Simple  : https://www.befunky.com/create/card-maker/
 Holiday Card - Complex : https://plus.smilebox.com
 
 CV Proiecte : https://profs.info.uaic.ro/~vcosmin/proiectetw
+<a href="http://stackoverflow.com" target="_blank">Go</a>
