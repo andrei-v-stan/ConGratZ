@@ -1,13 +1,9 @@
 # Informational links
-\
-\
 ### - Example websites
   -  [Business Card - Simple](https://www.freelogoservices.com/business-cards/step2)
   -  [Business Card - Complex](https://www.canva.com/design/play?category=tACZCsHw0pA&referrer=business-cards-landing-page&utm_source=onboarding)  
   -  [Holiday Card - Simple](https://www.befunky.com/create/card-maker/)
   -  [Holiday Card - Complex](https://plus.smilebox.com)
-\
-\
 ### - GitHub files  
   -  [GitHub repository - License example](https://github.com/github/choosealicense.com/blob/gh-pages/LICENSE.md)
   -  [GitHub repository - Readme example](https://github.com/github/choosealicense.com/blob/gh-pages/README.md)
