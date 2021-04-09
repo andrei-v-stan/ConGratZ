@@ -1,8 +1,13 @@
-# Table of Contents
-- [TL;DR - The BSD 3 Clause License Should Do](https://www.freelogoservices.com/business-cards/step2)
-- [In a Nutshell](#in-a-nutshell)
-- [How To Apply A License To Your Project](#how-to-apply-a-license-to-your-project)
-- [3 Main Types of Open Source Licenses](#3-main-types-of-open-source-licenses)
-  - [1. MIT](#1-mit)
-  - [2. Apache](#2-apache)
-  - [3. GPL](#3-gpl)
+# Here are several links where we got information
+
+- [Example Websites]
+ -  [Business Card - Simple](https://www.freelogoservices.com/business-cards/step2)
+ -  [Business Card - Complex](https://www.canva.com/design/play?category=tACZCsHw0pA&referrer=business-cards-landing-page&utm_source=onboarding)  
+ -  [Holiday Card - Simple](https://www.befunky.com/create/card-maker/)
+ -  [Holiday Card - Complex](https://plus.smilebox.com)
+-  
+-  [CV Projects](https://profs.info.uaic.ro/~vcosmin/proiectetw)
+-  
+-  [GitHub repository - License](https://github.com/github/choosealicense.com/blob/gh-pages/LICENSE.md)
+-  [GitHub repository - Texts](https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633#file-open_source_licenses-md)
+-  [GitHub repository - Readme](https://github.com/github/choosealicense.com/blob/gh-pages/README.md)
