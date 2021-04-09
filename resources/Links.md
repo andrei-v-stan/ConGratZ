@@ -1,10 +1,10 @@
 # Here are several links where we got information
 
 - [Example Websites]
- -  [Business Card - Simple](https://www.freelogoservices.com/business-cards/step2)
- -  [Business Card - Complex](https://www.canva.com/design/play?category=tACZCsHw0pA&referrer=business-cards-landing-page&utm_source=onboarding)  
- -  [Holiday Card - Simple](https://www.befunky.com/create/card-maker/)
- -  [Holiday Card - Complex](https://plus.smilebox.com)
+  -  [Business Card - Simple](https://www.freelogoservices.com/business-cards/step2)
+  -  [Business Card - Complex](https://www.canva.com/design/play?category=tACZCsHw0pA&referrer=business-cards-landing-page&utm_source=onboarding)  
+  -  [Holiday Card - Simple](https://www.befunky.com/create/card-maker/)
+  -  [Holiday Card - Complex](https://plus.smilebox.com)
 -  
 -  [CV Projects](https://profs.info.uaic.ro/~vcosmin/proiectetw)
 -  
