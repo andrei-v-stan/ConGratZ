@@ -15,6 +15,5 @@
   -  [GitHub repository - MD Formating](https://github.com/github/choosealicense.com/blob/gh-pages/README.md)
 \\
   
-\\
 ### - Others
   -  [CV Projects](https://profs.info.uaic.ro/~vcosmin/proiectetw)
