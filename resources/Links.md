@@ -10,7 +10,7 @@
   -  [GitHub repository - Markdown example](https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633#file-open_source_licenses-md)
   -  [GitHub repository - MD Formating](https://github.com/github/choosealicense.com/blob/gh-pages/README.md)
 
-  
 
-### - Others
+
+### - Others \
   -  [CV Projects](https://profs.info.uaic.ro/~vcosmin/proiectetw)
