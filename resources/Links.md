@@ -1,4 +1,4 @@
-## Informational links
+# Informational links
 
 ### - Example websites
   -  [Business Card - Simple](https://www.freelogoservices.com/business-cards/step2)
