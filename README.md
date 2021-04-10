@@ -6,4 +6,4 @@
 
 ### Click here to open the license file : [License](./others/License.md)
 
-### Click here to open the informational file : [Informational](./others/Informational.md)
+### Click here to open the informational file : [Information](./others/Information.md)
