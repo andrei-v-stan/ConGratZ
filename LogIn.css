@@ -1,0 +1,50 @@
+
+body{
+	background-color: #FCCE8E;
+
+}
+
+#father{
+	width: 30%;
+	height: 600px;
+	background-color: #FBE7D3;
+	margin: auto;
+	padding: 10px;
+	margin-top: 5%;
+	vertical-align: middle;
+	border-radius: 20px;
+	text-align: center;
+
+}
+#title{
+	font-size: 75px;
+}
+.kids{
+	margin-top: 10%;
+	font-family: sans-serif;
+}
+
+.input{
+	width: 70%;
+	height: 65px;
+	margin: auto;
+	margin-top:10%;
+	background-color: #BED8CF;
+	border-radius: 20px;
+	text-align: left;
+	padding: 1%;
+	padding-left: 3%;
+}
+.text{
+	opacity: 0.5;
+}
+
+
+#button{
+	width: 50%;
+	height: 70px;
+	margin: auto;
+	margin-top:10%;
+	background-color: #BED8CF;
+	border-radius: 20px;
+}
