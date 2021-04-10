@@ -1,7 +1,3 @@
----
-mainfont: "Times New Roman"
----
-
 ## Copyright (c) 2021 - Stan Andrei Vlăduț , Ionescu Paul Andrei , Vișnevschi Vladislav
 
 ### Property of the Romanian University "Alexandru Ioan Cuza", Faculty of Computer Science Iași
