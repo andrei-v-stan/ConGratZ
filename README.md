@@ -15,4 +15,4 @@ The application must allow the creation of business cards, which can be created 
 
 
 >### Click here to open the license file : [License](./others/License.md)
->### Click here to open the informational file : [Information](./others/Information.md)
+>### Click here to open the Scholarly file : [Scholarly](./html/Scholarly.html)
