@@ -4,11 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
         <title>Scholarly</title>
-        <link rel="stylesheet" href="https://w3c.github.io/scholarly-html/css/scholarly.min.css">
+	      <link rel="icon" type="image/ico" href="../images/favicon.ico"/>
+        <link rel="stylesheet" href="../css/Scholarly.css">
     </head>
     <body style="font-family: 'Verdana', Verdana, serif; font-size: 15pt;">
         <header>
             <h1>ConGratZ</h1>
+            <br>
         </header>
             <div role="contentinfo">
                 <ol role="directory">
@@ -28,19 +30,25 @@
                         </a>
                             <ol role="directory">
                                 <li>
-                                    <a href="#loading"><span>3.1 </span>-</a>
+                                    <a href="#homepage"><span>3.1 </span>Homepage</a>
                                 </li>
                                 <li>
-                                    <a href="#login"><span>3.2 </span>-</a>
+                                    <a href="#loading_screen"><span>3.2 </span>Loading Screen</a>
                                 </li>
                                 <li>
-                                    <a href="#register"><span>3.3 </span>-</a>
+                                    <a href="#login"><span>3.3 </span>Login</a>
                                 </li>
                                 <li>
-                                    <a href="#meniu"><span>3.4 </span>-</a>
+                                    <a href="#register"><span>3.4 </span>Register</a>
                                 </li>
                                 <li>
-                                    <a href="#clasa"><span>3.5 </span>-</a>
+                                    <a href="#choose"><span>3.5 </span>Choose</a>
+                                </li>
+                                <li>
+                                    <a href="#make"><span>3.6 </span>Make</a>
+                                </li>
+                                <li>
+                                    <a href="#about_contact"><span>3.7 </span>About & Contact us</a>
                                 </li>
                             </ol>
                     </li>
@@ -50,51 +58,78 @@
                         </a>
                     </li>
                 </ol>
-
+              <br>
+              <section typeof="sa:Authors" id="Authors" role="doc-introduction">
                 <dl>
-                    <dt>Authors</dt>
+                    <dt>Authors :</dt>
                     <dd>
-                        <p>Stan Andrei - Vlăduț</p>
-                        <p>Visnevschi Vladislav</p>
-                        <p>Ionescu Paul - Andrei</p>
+                      <p>Stan Andrei - Vladut</p>
+                      <p>Visnevschi Vladislav</p>
+                      <p>Ionescu Paul - Andrei</p>
                     </dd>
                 </dl>
+              </section>
             </div>
 
-            <section typeof="sa:Abstract" id="Abstract" role="doc-Abstract">
-                <h2><span>1. </span>Abstract :</h2>
-                        <p>WIP</p>
+            <section typeof="sa:Abstract" id="Abstract" role="doc-abstract">
+                <h2><span>1. </span>Abstract</h2>
+                        <h3>Congratz is a web application, created in the light of reviving the "ritual" of making and sending cards.</h3>
+                        <p>This web application allows it's users to turn their creativity into something special, it allows the creation of 2 types of cards : buisness and festive, thus the application has been created with a friendly interface which can be used by mostly any users. </p>
+                        <p>Besides these points, the web application was created by a group of college students written above (<a href="#Authors">click here</a>), as a project dedicated for the "Web Tehnologies" subject.
             </section>
 
             <section typeof="sa:Introduction" id="Introduction" role="doc-introduction">
-                <h2><span>2. </span>Introduction :</h2>
-                <p>
-                    WIP:
-                </p>
+                <h2><span>2. </span>Introduction</h2>
+                <h3>This card creation application comes with these functionalities :</h3>
                     <ul>
-                        <li>WIP</li>
-                        <li>WIP</li>
-                        <li>WIP</li>
+                        <li>The festive cards will be able to contain diverse effects, via CSSs or GIFs;</li>
+                        <li>These effects must be clearly delimited by a given area;</li>
+                        <li>Examples of such effects are (visible and animated) : Snow behind a window, Flames of a candle within a halloween pumpkin.</li>
+                        <li>These festive cards will have the ability to be sent between users, or to be sent via URLs.</li>
+                    </ul>
+                    <ul>
+                        <li>The buisness cards will be created via a XML document, which will have the ability to be exported into a PDF file, thus making it printable.</li>
+                        <li>The XML document will contain the name and contact data of multiple people.</li>
+                        <li>Aside of the PDF version, the cards will be able to be exported as a vcard or a QR code, thus allowing the posibility of these being emailed.</li>
                     </ul>
             </section>
             <section typeof="sa:MaterialsAndMethods" id="Functions" role="doc-chapter">
-                <h2><span>3. </span>The application's functions :</h2>
-                        <p>WIP</p>
-                <section typeof="sa:MaterialsAndMethods" id="loading" role="doc-chapter">
-                        <h3><span>3.1 </span>-</h3>
-                        <p>WIP</p>
+                <h2><span>3. </span>The application's functions</h2>
+                        <h3>This category is dedicated for describing the application's structure.</h3>
+                <section typeof="sa:MaterialsAndMethods" id="homepage" role="doc-chapter">
+                        <h3><span>3.1 </span>Homepage</h3>
+                        <p>The homepage is dedicated to welcoming the users, it having a minimalist, yet intriging design (<a href="../index.html">HTML</a>).</p>
+                        <p>It containts 2 components : a toolbar and a animation.</p>
+                        <p>The toolbar was created via CSS(<a href="../css/Main.css">view</a>), having a gradient color changing animation (same CSS) and 2 buttons. These buttons are the menu button, which on click drops down a menu bar(<a href="../css/MainAnimations.css">CSS</a> and <a href="../js/Main.js">JS</a>) and a login button, which on click redirects you to the login page (<a href="../js/Main.js">JS</a>).</p>
+                        <p>The animation was created also via CSS (<a href="../css/SlideShow.css">view</a>), having a image changing slide show, inspiring the user to create something.</p>
                 </section>
+                    <section typeof="sa:MaterialsAndMethods" id="loading_screen" role="doc-chapter">
+                        <h3><span>3.2 </span>Loading Screen</h3>
+                        <p>The loading screen is another component of this website, it being a simple redirect page containing a css animation (<a href="../html/Loading.html">HTML</a> and <a href="../css/Loading.css">CSS</a>).</p>
+                    </section>
                     <section typeof="sa:MaterialsAndMethods" id="login" role="doc-chapter">
-                        <h3><span>3.2 </span>-</h3>
-                        <p>WIP</p>
+                        <h3><span>3.3 </span>Login</h3>
+                        <p>The login mechanism is based of 2 modifiable text boxes, these having certain constraints (<a href="../html/Login.html">HTML</a> and <a href="../css/Login.css">CSS</a>).</p>
                     </section>
                     <section typeof="sa:MaterialsAndMethods" id="register" role="doc-chapter">
-                        <h3><span>3.3 </span>-</h3>
+                        <h3><span>3.4 </span>Register</h3>
+                        <p>The register functionality is very similer with the login mechanism however having some small differences (<a href="../html/SignUp.html">HTML</a> and <a href="../css/SignUp.css">CSS</a>).</p>
+                    </section>
+                    <section typeof="sa:MaterialsAndMethods" id="choose" role="doc-chapter">
+                        <h3><span>3.5 </span>Choose</h3>
+                        <p>WIP</p>
+                    </section>
+                    <section typeof="sa:MaterialsAndMethods" id="make" role="doc-chapter">
+                        <h3><span>3.6 </span>Make</h3>
+                        <p>WIP</p>
+                    </section>
+                    <section typeof="sa:MaterialsAndMethods" id="about_contact" role="doc-chapter">
+                        <h3><span>3.7 </span>About & Contact us</h3>
                         <p>WIP</p>
                     </section>
             </section>
 
-                <h2><span>4. </span>Refernces ca be found here: </h2><a href="../others/Information.md">Click me</a>
-            </section>
+                <h2><span>4. </span>Refernces can be found here as well : </h2><a href="./Information.html">Click here!</a>
+
     </body>
 </html>
