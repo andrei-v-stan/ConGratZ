@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main</title>
+	<link rel="stylesheet" type="text/css" href="./css/Main.css">
+	<link rel="stylesheet" type="text/css" href="./css/MainAnimations.css">
+	<link rel="stylesheet" type="text/css" href="./css/SlideShow.css">
+</head>
+<body>
+
+	<ul class="slideshow">
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+	</ul>
+
+
+	<div id="menu">
+		<ul>
+			<li class="menu_li"><button onclick="window.location.href = './html/Loading-Choose.html';" class = "menu_button"><b>Choose</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = './html/Loading-Make.html';" class = "menu_button"><b>Make</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = './html/Loading-AboutUs.html';" class = "menu_button"><b>About Us</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = './html/Loading-ContactUs.html';" class = "menu_button"><b>Contact Us</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = './html/Loading-Login.html';" class="menu_button"><b>Login</b></button></li>
+		</ul>
+	</div>
+	
+
+	<header>
+		<button onclick="menu()" id="burger_button"class="main_button"><img id ="burger"src="./images/IconMenu.png"></button>
+		<h1 id="title">ConGratZ</h1>
+		<button onclick="window.location.href = './html/Loading-Login.html';" class="main_button"><img id="LogIn" src="./images/IconAccount.png"></button>
+	</header>
+
+</body>
+<script type="text/javascript" src="./js/Main.js"></script>
+</html>
