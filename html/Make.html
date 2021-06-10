@@ -4,6 +4,7 @@
 	<title>Make</title>
 	<link rel="icon" type="image/ico" href="../images/favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="../css/Main.css">
+	<link rel="stylesheet" type="text/css" href="../css/Choose.css">
 	<link rel="stylesheet" type="text/css" href="../css/MainAnimations.css">
 	<link rel="stylesheet" type="text/css" href="../css/SlideShow.css">
 </head>
@@ -11,21 +12,84 @@
 
 	<div id="menu">
 		<ul>
-			<li class="menu_li"><button onclick="window.location.href = './html/Loading-Choose.html';" class = "menu_button"><b>Choose</b></button></li>
-			<li class="menu_li"><button onclick="window.location.href = './html/Loading-Make.html';" class = "menu_button"><b>Make</b></button></li>
-			<li class="menu_li"><button onclick="window.location.href = './html/Loading-AboutUs.html';" class = "menu_button"><b>About Us</b></button></li>
-			<li class="menu_li"><button onclick="window.location.href = './html/Loading-ContactUs.html';" class = "menu_button"><b>Contact Us</b></button></li>
-			<li class="menu_li"><button onclick="window.location.href = './html/Loading-Login.html';" class="menu_button"><b>Log In</b></button></li>
-			<li class="menu_li"><button onclick="window.location.href = './html/Loading-SignUp.html';" class="menu_button"><b>Sign Up</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = './html/Choose.html';" class = "menu_button"><b>Choose</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = './html/Make.html';" class = "menu_button"><b>Make</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = './html/AboutUs.html';" class = "menu_button"><b>About Us</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = './html/ContactUs.html';" class = "menu_button"><b>Contact Us</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = './html/Login.html';" class="menu_button"><b>Log In</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = './html/SignUp.html';" class="menu_button"><b>Sign Up</b></button></li>
 		</ul>
 	</div>
 
 
 	<header>
 		<button onclick="menu()" id="burger_button" class="main_button"><img id ="burger" src="../images/IconMenu.png" alt="IconMenu"></button>
-		<h1 id="title">ConGratZ</h1>
-		<button onclick="window.location.href = '../html/Loading-Login.html';" class="main_button"><img id="LogIn" src="../images/IconAccount.png" alt="IconAccount"></button>
+		<h1 id="title"><a href="./index.html"   style="text-decoration: none; color: black">ConGratZ</a></h1>
+		<button onclick="window.location.href = '../html/Login.html';" class="main_button"><img id="LogIn" src="../images/IconAccount.png" alt="IconAccount"></button>
 	</header>
+
+	<div id = "main_panel">
+		<table>
+			<tr>
+				<th>
+					<button class="image_container">
+						<img src="#" onclick="false" alt="false">
+					</button>
+				</th>
+				<th>
+					<button class="image_container">
+						<img src="#" onclick="false" alt="false">
+					</button>
+				</th>
+				<th>
+					<button class="image_container">
+						<img src="#" onclick="false" alt="false">
+					</button>
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<button class="image_container">
+						<img src="#" onclick="false" alt="false">
+					</button>
+				</th>
+				<th>
+					<button class="image_container">
+						<img src="#" onclick="false" alt="false">
+					</button>
+				</th>
+				<th>
+					<button class="image_container">
+						<img src="#" onclick="false" alt="false">
+					</button>
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<button class="image_container">
+						<img src="#" onclick="false" alt="false">
+					</button>
+				</th>
+				<th>
+					<button class="image_container">
+						<img src="#" onclick="false" alt="false">
+					</button>
+				</th>
+				<th>
+					<button class="image_container">
+						<img src="#" onclick="false" alt="false">
+					</button>
+				</th>
+			</tr>
+		</table>
+	</div>
+	<div id  ="page_container">
+		<ul>
+			<li><button id="button_nr_1">1</button></li>
+			<li><button id="button_nr_2">2</button></li>
+			<li><button id="button_nr_3">3</button></li>
+		</ul>
+	</div>
 
 
 <script src="../js/Main.js"></script>
