@@ -3,7 +3,7 @@ console.log("script found");
 var aboutVar =false;
 
 window.onload = function() {
-  document.getElementById('info_panel').style = "visibility: hidden;";
+  document.getElementById('info_panelX').style = "visibility: hidden;";
 };
 
 
@@ -12,7 +12,6 @@ function menu() {
   document.getElementById('burger').style = "animation: transform 1s ease forwards;";
   document.getElementById('burger_button').setAttribute( "onClick", "javascript: main();" );
   document.getElementById('info_panel').style = "animation: drop_panel 1s ease forwards;";
-  setTimeout(function () {document.getElementById('burger').src ="./images/IconExit.png";}, 1000);
   document.getElementById('info_panel').style = "visibility: hidden;";
 
 }
@@ -21,7 +20,6 @@ function main(){
 	document.getElementById('menu').style = "animation: undrop 1s ease forwards;";
     document.getElementById('burger').style = "animation: untransform 1s ease forwards;";
     document.getElementById('burger_button').setAttribute( "onClick", "javascript: menu();" );
-    setTimeout(function () {document.getElementById('burger').src ="../images/IconMenu.png";}, 1000);
     if(aboutVar == true){
     	document.getElementById('about_us').style = "animation: about_back 1s ease forwards";
     }

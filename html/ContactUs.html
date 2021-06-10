@@ -5,79 +5,75 @@
 	<link rel="icon" type="image/ico" href="../images/favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="../css/Main.css">
 	<link rel="stylesheet" type="text/css" href="../css/MainAnimations.css">
-	<link rel="stylesheet" type="text/css" href="../css/SlideShow.css">
 </head>
 <body>
 
 	<div id="menu">
 		<ul>
-			<li class="menu_li"><button class = "menu_button"><b>Choose</b></button></li>
-			<li class="menu_li"><button class = "menu_button"><b>Make</b></button></li>
-			<li class="menu_li"><button onclick="about()" class = "menu_button"><b>About Us</b></button></li>
-			<li class="menu_li"><button onclick="contacts()" class = "menu_button"><b>Contacts</b></button></li>
-			<li class="menu_li"><button class = "menu_button"><b>Log In</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = '../html/Loading-Choose.html';" class = "menu_button"><b>Choose</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = '../html/Loading-Make.html';" class = "menu_button"><b>Make</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = '../html/Loading-AboutUs.html';" class = "menu_button"><b>About Us</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = '../html/Loading-ContactUs.html';" class = "menu_button"><b>Contact Us</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = '../html/Loading-Login.html';" class="menu_button"><b>Login</b></button></li>
+			<li class="menu_li"><button onclick="window.location.href = '../html/Loading-SignUp.html';" class="menu_button"><b>Sign Up</b></button></li>
 		</ul>
 	</div>
 
 
 	<header>
 		<button onclick="menu()" id="burger_button" class="main_button"><img id ="burger" src="../images/IconMenu.png" alt="IconMenu"></button>
-		<h1 id="title">ConGratZ</h1>
-		<button onclick="window.location.href = './Loading-Login.html';" class="main_button"><img id="LogIn" src="../images/IconAccount.png" alt="IconAccount"></button>
+		<h1 id="title"><a href="./Loading-Index.html"   style="text-decoration: none; color: black">ConGratZ</a></h1>
+		<button onclick="window.location.href = '../html/Loading-Login.html';" class="main_button"><img id="LogIn" src="../images/IconAccount.png" alt="IconAccount"></button>
 	</header>
-<!--
-		<div id = "about_us" class="person">
-			<h1>About us</h1>
-				<div class="info">
-					<p><b>A bunch of students from E3</b></p>
-				</div></div>
--->
 
 	<div id= "info_panel" >
 		<div id="Contacts">
-			<div></div>
 			<div class="person">
-				<h2>Visnevschi Vladislav</h2>
+				<h2>Stan Andrei</h2>
 				<div class="info">
-					<p><b>Email:</b></p>
-					<p><b>Visnevskivlad@gmail.com</b></p>
-					<p><b>Phone NR:</b></p>
-					<p><b>0579438201</b></p>
-					<p><b>Adress:</b></p>
-					<p><b>Chisinau, Rep.Moldova</b></p>
-					<p><b>Vasile Lupu 61</b></p>
+					<p><b>Email</b></p>
+					<p><b>andreiXXXXXX@gmail.com</b></p>
+					<p><b>andrei.stan@info.uaic.ro</b></p>
+					<br>
+					<p><b>Phone NR</b></p>
+					<p><b>0787XXXXXX</b></p>
+					<br>
+					<p><b>Adress</b></p>
+					<p><b>XXXXXX, XXXXXX</b></p>
+					<p><b>XXXXXX</b></p>
+				</div>
+			</div>
+			<div class="person">
+				<h2>Ionescu Paul</h2>
+				<div class="info">
+					<p><b>Email</b></p>
+					<p><b>XXXXXX@gmail.com</b></p>
+					<br>
+					<p><b>Phone NR</b></p>
+					<p><b>0579XXXXXX</b></p>
+					<br>
+					<p><b>Adress</b></p>
+					<p><b>XXXXXX, XXXXXX</b></p>
+					<p><b>XXXXXX</b></p>
 				</div>
 			</div>
 			<div class="person">
 				<h2>Visnevschi Vladislav</h2>
 				<div class="info">
-					<p><b>Email:</b></p>
+					<p><b>Email</b></p>
 					<p><b>Visnevskivlad@gmail.com</b></p>
-					<p><b>Phone NR:</b></p>
+					<br>
+					<p><b>Phone NR</b></p>
 					<p><b>0579438201</b></p>
-					<p><b>Adress:</b></p>
+					<br>
+					<p><b>Adress</b></p>
 					<p><b>Chisinau, Rep.Moldova</b></p>
 					<p><b>Vasile Lupu 61</b></p>
 				</div>
 			</div>
-			<div class="person">
-				<h2>Visnevschi Vladislav</h2>
-				<div class="info">
-					<p><b>Email:</b></p>
-					<p><b>Visnevskivlad@gmail.com</b></p>
-					<p><b>Phone NR:</b></p>
-					<p><b>0579438201</b></p>
-					<p><b>Adress:</b></p>
-					<p><b>Chisinau, Rep.Moldova</b></p>
-					<p><b>Vasile Lupu 61</b></p>
-				</div>
-			</div>
-		</div>
-		<div id="show">
-			<img src="#" onclick="false" alt="false">
 		</div>
 	</div>
 
-<script src="./js/Main.js"></script>
+<script src="../js/Main.js"></script>
 </body>
 </html>
