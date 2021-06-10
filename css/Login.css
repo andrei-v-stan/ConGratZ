@@ -24,14 +24,14 @@ div.container{
 .login {
   position: absolute;
   top: 30%;
-	right: 20%;
+  right: 20%;
   margin: -150px 0 0 -150px;
   width: 20vw;
   height: 20vh;
 }
 
 .login h1 {
-	font-size: 7vw;
+	font-size: 11vh;
 	margin-top: 0%;
 	font-family: sans-serif;
 	color: black;
@@ -69,3 +69,39 @@ input {
 	background-color: #BED8CF;
 	border-radius: 20px;
 }
+@media only screen and (max-width: 800px) {
+  	.login h1 {
+  		font-size: 7vh;
+  	}
+  	div.container{
+  		width: 60vw;
+  		padding-top: 18vh;
+  		left: 15%;
+  		top:3%;
+  	}
+  	.login {
+  		top: 30%;
+  		right: 35%;
+  		width: 20vw;
+  		height: 20vh;
+  	}
+  	input{
+  		width: 30vw;
+  		margin-left: -5vh;
+  	}
+  	.button{
+  		width: 20vw;
+  		font-size: 4vw;
+  	}
+  	h2{
+  		font-size: 3vh;
+  	}
+  	
+  	
+  }
+  @media only screen and (max-height: 600px){
+  	div.container{
+  		height: 200vh;
+  		margin-top: -15%;
+  	}
+  }
